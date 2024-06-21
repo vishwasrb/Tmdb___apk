@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "24706695674",
+    "project_id": "tmdbapp-d0a6e",
+    "storage_bucket": "tmdbapp-d0a6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24706695674:android:c01f89c0f6a30608226443",
+        "android_client_info": {
+          "package_name": "com.example.tmdbapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpNR9dWbaWzFNPWKh39k9QaMIfTU7-gJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
