@@ -55,37 +55,46 @@ class LoginpageConsumer extends StatelessWidget {
                         Image.asset(
                           'images/image.png',
                         ),
-                        Mytextfield(
-                          controller: emailController,
-                          hintText: 'Email',
-                          obscuretext: false,
+                        Padding(
+                          padding: const EdgeInsets.only(left: 18.0, right: 18),
+                          child: Mytextfield(
+                            controller: emailController,
+                            hintText: 'Email',
+                            obscuretext: false,
+                          ),
                         ),
-                        Mytextfield(
-                          controller: passwordController,
-                          hintText: 'Password',
-                          obscuretext: true,
+                        Padding(
+                          padding: const EdgeInsets.only(left: 18.0, right: 18),
+                          child: Mytextfield(
+                            controller: passwordController,
+                            hintText: 'Password',
+                            obscuretext: true,
+                          ),
                         ),
                         const SizedBox(
                           height: 15,
                         ),
-                        SizedBox(
-                          height: 60,
-                          width: 360,
-                          child: ElevatedButton(
-                            onPressed: () {
-                              signUserIn(context); // Corrected here
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor:
-                                  const Color.fromARGB(255, 0, 251, 8),
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(5),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 18.0, right: 18),
+                          child: SizedBox(
+                            height: 60,
+                            width: 320,
+                            child: ElevatedButton(
+                              onPressed: () {
+                                signUserIn(context); // Corrected here
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    const Color.fromARGB(255, 0, 251, 8),
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(5),
+                                ),
                               ),
-                            ),
-                            child: const Text(
-                              "SIGN IN",
-                              style:
-                                  TextStyle(color: Colors.black, fontSize: 20),
+                              child: const Text(
+                                "SIGN IN",
+                                style: TextStyle(
+                                    color: Colors.black, fontSize: 20),
+                              ),
                             ),
                           ),
                         ),
@@ -139,23 +148,26 @@ class LoginpageConsumer extends StatelessWidget {
                         const SizedBox(
                           height: 16,
                         ),
-                        SizedBox(
-                          height: 60,
-                          width: 360,
-                          child: ElevatedButton(
-                            onPressed: () {
-                              Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => HomePage(),
-                              ));
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor:
-                                  const Color.fromARGB(255, 0, 255, 8),
-                            ),
-                            child: const Text(
-                              "CONTINUE",
-                              style:
-                                  TextStyle(color: Colors.black, fontSize: 20),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 30.0, right: 30),
+                          child: SizedBox(
+                            height: 60,
+                            width: 360,
+                            child: ElevatedButton(
+                              onPressed: () {
+                                Navigator.of(context).push(MaterialPageRoute(
+                                  builder: (context) => HomePage(),
+                                ));
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor:
+                                    const Color.fromARGB(255, 0, 255, 8),
+                              ),
+                              child: const Text(
+                                "CONTINUE",
+                                style: TextStyle(
+                                    color: Colors.black, fontSize: 20),
+                              ),
                             ),
                           ),
                         ),
