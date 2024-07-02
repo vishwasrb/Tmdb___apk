@@ -1,6 +1,6 @@
 {
-    "name": "tmdbapp",
-    "short_name": "tmdbapp",
+    "name": "tmdbapk",
+    "short_name": "tmdbapk",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

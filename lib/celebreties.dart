@@ -159,7 +159,7 @@ class _CelebritiesState extends State<Celebrities> {
                             ),
                             Expanded(
                               child: Text(
-                                personmodel!.name,
+                                personmodel?.name ?? 'No Deathday Information',
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                                 style: const TextStyle(
