@@ -1,16 +1,12 @@
-# tmdbapk
+A new Flutter project using The Movie Database (TMDb) API.
+Project Overview
+This is a Flutter application that interacts with the TMDb API to fetch movie data such as:
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Popular movies
+Movie details (description, ratings, release date, etc.)
+Search for movies by name
+Features
+Fetch popular movies from TMDb API
+View movie details such as title, overview, rating, and poster
+Search for movies by title
+Responsive and clean UI
